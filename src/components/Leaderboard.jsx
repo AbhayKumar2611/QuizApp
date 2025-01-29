@@ -1,5 +1,4 @@
 import React from "react";
-import { use } from "react";
 
 const Leaderboard = () => {
   const leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [];
